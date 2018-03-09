@@ -8,7 +8,7 @@ Works currently only under Unix
 ```
 sudo apt install build-essential cmake libcurl4-openssl-dev wget gzip
 
-cd pdb
+cd pdbget
 mkdir build && cd build
-cmake .. && make && mv src/pdb . && rm -r src
+cmake .. && make && mv src/pdbget . && rm -r src
 ```
